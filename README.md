@@ -11,7 +11,7 @@ Following the work from [RVCalendarWeekView](https://github.com/BadChoice/RVCale
 
 ## Features
 
-* written in swift 3.1
+* written in swift 4.0
 * infinite scroll horizontally left and right
 * changable between day and week
 * paging horizontally
