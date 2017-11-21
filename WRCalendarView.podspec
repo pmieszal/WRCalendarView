@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WRCalendarView/**/*'
+  s.source_files = 'WRCalendarView/**/*.{swift,h,m}'
   
-#s.resource_bundles = {
-#  'WRCalendarView' => ['WRCalendarView/**/*.{storyboard,xib}']
-#}
+s.resource_bundles = {
+  'WRCalendarView' => ['WRCalendarView/Xibs/*.{storyboard,xib}']
+}
   s.dependency 'DateToolsSwift'
 end
