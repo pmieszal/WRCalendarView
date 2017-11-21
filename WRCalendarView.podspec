@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'WRCalendarView/**/*'
   
-  s.resource_bundles = {
-    'WRCalendarView' => ['WRCalendarView/**/*.{storyboard,xib}']
-  }
+#s.resource_bundles = {
+#  'WRCalendarView' => ['WRCalendarView/**/*.{storyboard,xib}']
+#}
   s.dependency 'DateToolsSwift'
 end

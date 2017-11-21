@@ -1,15 +1,11 @@
 PODS:
   - DateToolsSwift (2.0.3)
   - DropDownMenuKit (0.8.2)
-  - Nimble (7.0.2)
-  - Quick (1.2.0)
   - WRCalendarView (1.0.2):
     - DateToolsSwift
 
 DEPENDENCIES:
   - DropDownMenuKit
-  - Nimble (= 7.0.2)
-  - Quick (= 1.2.0)
   - WRCalendarView (from `../`)
 
 EXTERNAL SOURCES:
@@ -19,10 +15,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
   DropDownMenuKit: 0acbd983fefac6718b1df209198ba6336c3e2772
-  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  WRCalendarView: 984cc5c8b1cca55dba720932d43ef286f2151523
+  WRCalendarView: 28080c4c5bfa77cd5373f68b43697f65415cfec2
 
-PODFILE CHECKSUM: 464605a98b1b29371747671a3aa808a237cb3902
+PODFILE CHECKSUM: 6b3d8a3ef1a66a4d14ce529321249f647746fff3
 
 COCOAPODS: 1.3.1

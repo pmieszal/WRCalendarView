@@ -82,9 +82,9 @@ public class WRWeekView: UIView {
     }
     
     func registerViewClasses() {
-        let podBundle = Bundle(for: WRWeekView.self)
-        let bundleURL = podBundle.url(forResource: "WRCalendarView", withExtension: "bundle")
-        let bundle = Bundle(url: bundleURL!)!
+//        let podBundle = Bundle(for: WRWeekView.self)
+//        let bundleURL = podBundle.url(forResource: "WRCalendarView", withExtension: "bundle")
+        let bundle = Bundle(for: WRWeekView.self)
 
         //cell
         collectionView.register(UINib.init(nibName: WREventCell.className, bundle: bundle),
